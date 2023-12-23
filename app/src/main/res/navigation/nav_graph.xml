@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.codingwithsandeep.e_commerceapp.view.fragments.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.codingwithsandeep.e_commerceapp.view.fragments.CategoryFragment"
+        android:label=""
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.codingwithsandeep.e_commerceapp.view.fragments.ProfileFragment"
+        android:label=""
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/seeAllProductsFragment"
+        android:name="com.codingwithsandeep.e_commerceapp.view.fragments.SeeAllProductsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_see_all_products" />
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.codingwithsandeep.e_commerceapp.view.fragments.ProductDetailsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_product_details" />
+</navigation>

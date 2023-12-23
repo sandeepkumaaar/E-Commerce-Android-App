@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/action_myCart"
+        android:title="My Cart"/>
+
+    <item
+        android:id="@+id/action_upcomingOrders"
+        android:title="Upcoming Orders"/>
+
+    <item
+        android:id="@+id/action_offerZone"
+        android:title="Offer Zone"/>
+
+    <item
+        android:id="@+id/action_myAccount"
+        android:title="My Account"/>
+
+    <item
+        android:id="@+id/action_myChats"
+        android:title="My Chats"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:title="Help"/>
+
+
+
+</menu>
